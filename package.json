@@ -1,7 +1,18 @@
 {
-  "name": "node_101",
+  "name": "node_101_basics",
+  "description":"a basic project to go over the basics of a Node server application",
   "version": "1.0.0",
+  "repository":{
+    "type":"git",
+    "url":"http://github.com/arturomc/node_101_basics"
+  },
   "dependencies": {
-    "express": "^4.12.2"
+    "express": "^4.12.2",
+    "nodemon": "^1.3.7",
+    "grunt":"latest"
+  },
+  "devDependencies":{
+    "grunt-contrib-watch":"latest",
+    "grunt-contrib-jshint":"latest"
   }
 }
